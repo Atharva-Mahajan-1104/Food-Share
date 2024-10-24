@@ -63,12 +63,6 @@ Post Donation
 Contributing 🤝
 Contributions are welcome! Please open an issue or submit a pull request for any improvements.
 
-Steps for Contribution:
-Fork the repo
-Create a new branch (git checkout -b feature-branch)
-Make your changes and commit (git commit -m 'Add some feature')
-Push to the branch (git push origin feature-branch)
-Open a pull request
 License 📜
 This project is licensed under the MIT License - see the LICENSE file for details.
 
@@ -76,5 +70,5 @@ Contact 💬
 For any queries or discussions, feel free to reach out to:
 
 Author: Atharva Mahajan
-Email: your-email@example.com
+Email: atharvamahajan2004@gmail.com
 GitHub: Atharva Mahajan
