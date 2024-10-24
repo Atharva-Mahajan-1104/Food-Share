@@ -28,17 +28,9 @@
 - **CSS Framework**: Tailwind CSS
 - **Routing**: React Router & Wouter
 
-## Installation & Setup 🚀
 
-### Prerequisites
-- [Node.js](https://nodejs.org/)
-- [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
-- [MySQL](https://www.mysql.com/)
 
-### Clone the Repository
-```bash
-git clone https://github.com/Atharva-Mahajan-1104/Food-Share.git
-cd Food-Share
+
 Project Structure 🗂️
 /src
 /components: Contains reusable UI components.
@@ -46,19 +38,25 @@ Project Structure 🗂️
 /context: Context for handling authentication and role-based access.
 /types: TypeScript interfaces for handling props and data structures.
 /assets: Images and static assets.
-API Endpoints 📡
-Method	Endpoint	Description
-POST	/api/login	Login to the system
-POST	/api/signup	Register a new user
-GET	/api/donations	Get all available donations
-POST	/api/donations	Post a new food donation
-GET	/api/donations/:id	Get details of a specific donation
-PUT	/api/donations/:id	Update donation details
-DELETE	/api/donations/:id	Delete a specific donation
-Screenshots 🖼️
-Dashboard Overview (Organizer)
+## API Endpoints (Planned/Under Development) 📡
 
-Post Donation
+| Method | Endpoint              | Description                                   | Status             |
+|--------|-----------------------|-----------------------------------------------|--------------------|
+| `POST` | `/api/login`           | Login to the system                           | **Planned**        |
+| `POST` | `/api/signup`          | Register a new user                           | **Planned**        |
+| `GET`  | `/api/donations`       | Retrieve all available food donations         | **In Progress**    |
+| `POST` | `/api/donations`       | Create a new food donation offer              | **In Progress**    |
+| `GET`  | `/api/donations/:id`   | Retrieve details of a specific donation offer | **Planned**        |
+| `PUT`  | `/api/donations/:id`   | Update an existing food donation offer        | **Planned**        |
+| `DELETE` | `/api/donations/:id` | Delete a food donation offer                  | **Planned**        |
+
+### Notes
+- **Planned**: These endpoints are conceptualized but have not yet been implemented.
+- **In Progress**: These endpoints are currently being developed or tested.
+
+Once the backend is fully implemented, this table can be updated to reflect the actual API structure.
+
+
 
 Contributing 🤝
 Contributions are welcome! Please open an issue or submit a pull request for any improvements.
